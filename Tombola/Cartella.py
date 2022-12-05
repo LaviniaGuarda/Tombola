@@ -181,7 +181,7 @@ class Cartella:
         return indici
 
 
-    '''il metodo genera_posizioni_cartella inserisce un numero 1 per ogni colonna (in totale quindi 9), verificando che per ogni riga non ci siano più di 5 numeri '''
+    '''il metodo genera_posizioni_cartella inserisce un numero 1 per ogni colonna (in totale quindi 9), sfruutando le righe che non rispettano il vincolo (<5 elementi) '''
 
     def genera_posizioni_cartella(self):
         self.canc_cartella()
